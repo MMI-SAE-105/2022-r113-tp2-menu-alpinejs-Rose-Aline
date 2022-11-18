@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" x-data="{menuIsOpen: false}" :class=""{noscroll:menuIsOpen,}>
+<html lang="en" x-data="{menuIsOpen: false}" :class=""{noscroll:menuIsOpen,}> 
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,7 +20,10 @@
     .noscroll
     .noscroll body {overflow:hidden;}
     </style>
-    </div></head>
+    </div>
+
+    
+    </head>
   <body>
     <!-- https://emmet.io/ -->
     <!-- header>h1{Test de menu} -->
@@ -30,7 +33,7 @@
         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.1000ms 
         class="menu">
           <ul>
-            <li><a href="#">item 1</a></li>
+            <li><a href="chat-1.html">Chats</a></li>
             <li><a href="#">item 2</a></li>
             <li><a href="#">item 3</a></li>
           </ul>
@@ -38,20 +41,23 @@
     </header>
     <!-- h2>lorem2^p>lorem -->
 
-    <dl>
+   
+   
+   
+        
+        <dl>
       <dt>Lorem.</dt>
       <dd>Lorem ipsum dolor sit amet.</dd>
     </dl>
     <dl>
       <dt>Ad.</dt>
-      <dd>Provident ipsam molestias cupiditate fuga!</dd>
+      <dd>Provident ipsam molestias cupiditate fuga! </dd>
     </dl>
     <dl>
       <dt>Quas!</dt>
       <dd>Veniam exercitationem error quidem at?</dd>
     </dl>
-
-
-
+    </ul>
   </body>
+
 </html>
